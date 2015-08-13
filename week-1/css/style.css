@@ -1,0 +1,16 @@
+body{
+	background-color: #2F4F4F;
+	color: #fff;
+	font-size: 16px;
+}
+h1 {
+	font-family: Futura, versadana, sans-serif;
+	font-size: 45px;
+	text-align: center;
+}
+p {
+	background-color: #2299ff;
+	padding: 40px;
+	margin: 10;
+	line-height: 22px;
+}
