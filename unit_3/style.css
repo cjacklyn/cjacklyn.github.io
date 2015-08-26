@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+}
+h1{
+	font-size: 90px;
+	text-align: center;
+	font-weight: bold;
+	font-family: inherit; 
+	font-style: italic;
+}
+#slogan {
+	color: red;
+	font-style: italic;
+	font-size: 60px;
+	
+}
+p {
+	font-size: 30px;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: black;
+}
+footer {
+	padding: 30px;
+	background: #f06178;
+}
+.contact {
+	list-style-type: none;
+	text-transform: lowercase;
+}

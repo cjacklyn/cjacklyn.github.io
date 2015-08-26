@@ -1,6 +1,15 @@
-body{
-	background: B1BBBD;
+body {
+	background: #fff;
 }
-h1{
-	color: blue;
+header {
+
+}
+h1 {
+	color: #000;
+}
+p {
+
+}
+.contact {
+	list-style-type: none;
 }
