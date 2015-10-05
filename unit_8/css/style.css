@@ -1,0 +1,238 @@
+body {
+	background-color: #ccc;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 36px;
+}
+a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #000;
+}
+
+h1, #slogan {
+	font-size: 3.4em;
+ 	font-family: 'Mr Bedfort', cursive;
+	font-style: italic;
+	margin: 1em auto .6em;
+	text-align: center;
+}
+
+nav {
+	background: #eee;
+	position: fixed;
+	width: 100%;
+	opacity: 0.8;
+	}
+
+nav a {
+	background: #eee;
+	padding: .5em 2.3em;
+	display: inline-block;
+	border-radius: .8em;
+}
+
+nav a#hamburger {
+	font-size: 2em;
+	display: none;
+	padding: .35em;
+}
+
+nav a:hover {
+	background: #d8ae60;
+}
+
+nav:hover a {
+	display: block;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+#slogan {
+	font-size: 1.2em;
+	font-family: courier;
+	text-align: center;
+	line-height: 3.5em;
+	margin-bottom: 3em;
+	padding: 5em;
+
+}
+
+#wrapper {
+	line-height: 1.8em;
+	text-align: left;
+}
+
+.about {
+	font-family: 'FF scala sans';
+	font-weight: bold;
+	float:left;
+	display: block;
+	
+	background: #ffd0d0;
+	padding: 2em;
+	padding-bottom: .5em;
+	text-align: justify;
+}
+
+.about p {
+	text-align: justify;
+}
+
+.about a, .services {
+	text-decoration: none;
+	color: #777;
+}
+
+.about h3, .services h3 {
+	font-size: 1.7em;
+	padding: .5em .5em .8em;
+	font-family: 'FF scala sans';
+	font-weight: bold;
+
+}
+.about h3:hover, .services h3:hover, {
+	color: #000;
+}
+
+.services {
+	background: #beffe3;
+	display: block;
+	float: left;
+	padding: 2em;
+	
+}
+
+.services h3 {
+	font-size: 1.7em;
+}
+
+.services ul {
+	font-size: 1.7em;
+	padding: .5em .5em 1.1em;
+	font-size: 1.5em;
+}
+
+.services li a {
+	padding: 1em;
+	color: #222222;
+	list-style-type: none;
+	}
+}
+
+.services a:hover {
+	font-weight: bold;
+}
+
+footer {
+	clear: both;
+	padding: 1.5em;
+	text-align: center;
+	margin: 0 auto;
+	background: #d8ae60;
+	color: #fff;
+}
+
+footer li {
+	display: inline-block; 
+	padding: 1em;
+	margin: 0 auto;
+	}
+
+footer a {
+	
+display: inline-block; 
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+@media only screen and (min-width: 320px) {
+	body {
+		width: 100%;
+	}
+	img {
+		margin-top: 5.6em;
+		width: 100%;
+	}
+	nav a {
+		display: none;
+	}
+	nav a#hamburger {
+		display: block;
+	}
+
+	#slogan {
+		padding: 2em ;
+		font-size: 1em;
+		line-height: 2em;
+	}
+	.about, .services {
+		margin: 0 auto;
+		line-height: 2em;
+		padding: 2.5em 2em;
+		width: 100%;
+	}
+	.about p {
+		width: 20em;
+	}
+	
+	footer {
+		padding: .3em;
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 740px) {
+	nav a#hamburger {
+		display: none;
+	}
+
+	nav a {
+		display: inline-block;
+		padding: .5em 1.8em;
+	}
+
+	nav:hover a {
+
+	}
+
+	img {
+		margin-top: .5em;
+		width: 100%
+	}
+
+	.about {
+		display: inline-block;
+		width: 36em;
+		float: left;
+	}
+	#slogan {
+		padding: 7em;
+		display: block;
+		line-height: 2.8em;
+		font-size: 1.5em;
+	}
+	.services {
+		display: inline-block;
+		padding-bottom: 12em;
+		width: 36em;
+	}
+	.services p {
+		padding-bottom: 1em;
+		list-style-type: none;
+	}
+		
+	}
+	footer a, footer p {
+		font-size: 1.2em;
+		padding: 1em ;
+	}
+}
+
